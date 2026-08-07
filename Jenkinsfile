@@ -10,3 +10,8 @@ pipeline {
         }
     }
 }
+post{
+    success{
+        echo "Pipeline failed4r.Please check the logsb for details"
+    }
+}
